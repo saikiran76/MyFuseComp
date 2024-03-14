@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "./components/Home";
-import Login from "./components/login";
+import Login from "./components/Login";
+import Company from "./components/Company";
+import Header from "./components/header";
 
 const App = () =>{
     return(
-        <div className="App">
+        <div>
+            <Header/>
             <Login/>
+            <Company/>
         </div>
     )
 }
