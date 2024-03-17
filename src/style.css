@@ -45,7 +45,14 @@
   }
 
   .h-custom{
-    height: 91vh;
+    height: 94vh;
+  }
+
+  @media screen and (max-width: 600px) {
+    .h-custom{
+        height: 200vh
+    }
+    
   }
 
   swiper-container {

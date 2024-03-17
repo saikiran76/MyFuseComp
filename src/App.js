@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Login from "./components/Login";
 import Company from "./components/Company";
 import Navbar from "./components/Navbar";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
 import Head from "./components/newHeader";
 import Challenge from "./components/challenge";
+import Landing from "./components/landing";
 
 const App = () => {
     return ( <
@@ -16,15 +16,10 @@ const App = () => {
         <
         Head / >
         
+        <Landing/>
         <Challenge/>
 
-
-
-        {
-            /* <Login/>
-                        <Company/> */
-        } <
-        /div>
+        </div>
     )
 }
 
@@ -33,11 +28,11 @@ const appRouter = createBrowserRouter([{
         element: < App / > ,
         children: [{
                 path: "/Home",
-                element: < Login / >
+                element: < Head / >
             },
             {
                 path: "/login",
-                element: < Login / >
+                element: < Head / >
             },
 
 
