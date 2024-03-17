@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import Logo from "../assets/Logo.png";
-// import Button from "./Button";
-// import NavLinks from "./Navlinks";
 
 const Navbar = () => {
   return (
