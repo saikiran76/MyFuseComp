@@ -2957,8 +2957,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _company = require("./components/Company");
-var _companyDefault = parcelHelpers.interopDefault(_company);
 var _navbar = require("./components/Navbar");
 var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _reactRouterDom = require("react-router-dom");
@@ -2973,28 +2971,28 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 14,
+                lineNumber: 13,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 16,
+                lineNumber: 15,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 19,
+                lineNumber: 18,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _challengeDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 20,
+                lineNumber: 19,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 14
     }, undefined);
 };
@@ -3004,7 +3002,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 28,
+            lineNumber: 27,
             columnNumber: 18
         }, undefined),
         children: [
@@ -3012,7 +3010,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Home",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 31,
+                    lineNumber: 30,
                     columnNumber: 26
                 }, undefined)
             },
@@ -3020,7 +3018,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/login",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 35,
+                    lineNumber: 34,
                     columnNumber: 26
                 }, undefined)
             }
@@ -3032,7 +3030,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 46,
+    lineNumber: 45,
     columnNumber: 14
 }, undefined));
 var _c;
@@ -3043,7 +3041,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Company":"jeRCL","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27230,374 +27228,7 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"jeRCL":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$29cc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$29cc.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _logo1Png = require("../logo1.png");
-var _logo1PngDefault = parcelHelpers.interopDefault(_logo1Png);
-const Company = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-container", {
-                class: "mySwiper",
-                pagination: "true",
-                effect: "coverflow",
-                "grab-cursor": "true",
-                "centered-slides": "true",
-                "slides-per-view": "auto",
-                "coverflow-effect-rotate": "50",
-                "coverflow-effect-stretch": "0",
-                "coverflow-effect-depth": "100",
-                "coverflow-effect-modifier": "1",
-                "coverflow-effect-slide-shadows": "true",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _logo1PngDefault.default),
-                            alt: "accenture"
-                        }, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 10,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 9,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 13,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 12,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 16,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 15,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 19,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 18,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 22,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 21,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 25,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 24,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 28,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 27,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 31,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 30,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
-                            fileName: "src/components/Company.js",
-                            lineNumber: 34,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Company.js",
-                        lineNumber: 33,
-                        columnNumber: 13
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Company.js",
-                lineNumber: 6,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                className: "text-center text-3xl m-2 font-['poppins'] font-extrabold bg-white",
-                children: "Company Spotlight"
-            }, void 0, false, {
-                fileName: "src/components/Company.js",
-                lineNumber: 37,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Company.js",
-        lineNumber: 5,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Company;
-exports.default = Company;
-var _c;
-$RefreshReg$(_c, "Company");
-
-  $parcel$ReactRefreshHelpers$29cc.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../logo1.png":"50gor","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"50gor":[function(require,module,exports) {
-module.exports = require("7e6c7f2edbdf7e24").getBundleURL("aXMci") + "logo1.dbb5b3dd.png" + "?" + Date.now();
-
-},{"7e6c7f2edbdf7e24":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("7422ead32dcc1e6b");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports;
-                // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-                // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        var typeID = id + " %exports% " + key;
-        Refresh.register(exportValue, typeID);
-    }
-}
-
-},{"7422ead32dcc1e6b":"786KC"}],"5EEXV":[function(require,module,exports) {
+},{}],"5EEXV":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8fbf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27610,9 +27241,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-// import Logo from "../assets/Logo.png";
-// import Button from "./Button";
-// import NavLinks from "./Navlinks";
 const Navbar = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27624,7 +27252,7 @@ const Navbar = ()=>{
                     id: "check"
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 11,
+                    lineNumber: 8,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27638,19 +27266,19 @@ const Navbar = ()=>{
                                 children: "."
                             }, void 0, false, {
                                 fileName: "src/components/Navbar.js",
-                                lineNumber: 14,
+                                lineNumber: 11,
                                 columnNumber: 44
                             }, undefined),
                             "In"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Navbar.js",
-                        lineNumber: 14,
+                        lineNumber: 11,
                         columnNumber: 17
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 13,
+                    lineNumber: 10,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27670,12 +27298,12 @@ const Navbar = ()=>{
                                             children: " Home "
                                         }, void 0, false, {
                                             fileName: "src/components/Navbar.js",
-                                            lineNumber: 22,
+                                            lineNumber: 19,
                                             columnNumber: 25
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 21,
+                                        lineNumber: 18,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27692,13 +27320,13 @@ const Navbar = ()=>{
                                                         className: "fas fa-caret-down"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Navbar.js",
-                                                        lineNumber: 26,
+                                                        lineNumber: 23,
                                                         columnNumber: 45
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Navbar.js",
-                                                lineNumber: 26,
+                                                lineNumber: 23,
                                                 columnNumber: 29
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27712,12 +27340,12 @@ const Navbar = ()=>{
                                                                 children: "Link 1"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/Navbar.js",
-                                                                lineNumber: 30,
+                                                                lineNumber: 27,
                                                                 columnNumber: 41
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 29,
+                                                            lineNumber: 26,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27727,12 +27355,12 @@ const Navbar = ()=>{
                                                                 children: "Link 2"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/Navbar.js",
-                                                                lineNumber: 33,
+                                                                lineNumber: 30,
                                                                 columnNumber: 41
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 32,
+                                                            lineNumber: 29,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27746,13 +27374,13 @@ const Navbar = ()=>{
                                                                             className: "fas fa-caret-down"
                                                                         }, void 0, false, {
                                                                             fileName: "src/components/Navbar.js",
-                                                                            lineNumber: 36,
+                                                                            lineNumber: 33,
                                                                             columnNumber: 59
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "src/components/Navbar.js",
-                                                                    lineNumber: 36,
+                                                                    lineNumber: 33,
                                                                     columnNumber: 41
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27764,6 +27392,21 @@ const Navbar = ()=>{
                                                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                     href: "#",
                                                                                     children: "Link 1"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "src/components/Navbar.js",
+                                                                                    lineNumber: 37,
+                                                                                    columnNumber: 53
+                                                                                }, undefined)
+                                                                            }, void 0, false, {
+                                                                                fileName: "src/components/Navbar.js",
+                                                                                lineNumber: 36,
+                                                                                columnNumber: 49
+                                                                            }, undefined),
+                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                                                className: "dropdown-link",
+                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                                    href: "#",
+                                                                                    children: "Link 2"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/components/Navbar.js",
                                                                                     lineNumber: 40,
@@ -27778,7 +27421,7 @@ const Navbar = ()=>{
                                                                                 className: "dropdown-link",
                                                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                     href: "#",
-                                                                                    children: "Link 2"
+                                                                                    children: "Link 3"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/components/Navbar.js",
                                                                                     lineNumber: 43,
@@ -27787,21 +27430,6 @@ const Navbar = ()=>{
                                                                             }, void 0, false, {
                                                                                 fileName: "src/components/Navbar.js",
                                                                                 lineNumber: 42,
-                                                                                columnNumber: 49
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                className: "dropdown-link",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    children: "Link 3"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/Navbar.js",
-                                                                                    lineNumber: 46,
-                                                                                    columnNumber: 53
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/Navbar.js",
-                                                                                lineNumber: 45,
                                                                                 columnNumber: 49
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27815,13 +27443,13 @@ const Navbar = ()=>{
                                                                                                 className: "fas fa-caret-down"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "src/components/Navbar.js",
-                                                                                                lineNumber: 49,
+                                                                                                lineNumber: 46,
                                                                                                 columnNumber: 69
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "src/components/Navbar.js",
-                                                                                        lineNumber: 49,
+                                                                                        lineNumber: 46,
                                                                                         columnNumber: 53
                                                                                     }, undefined),
                                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27833,6 +27461,21 @@ const Navbar = ()=>{
                                                                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                                         href: "#",
                                                                                                         children: "Link 1"
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "src/components/Navbar.js",
+                                                                                                        lineNumber: 50,
+                                                                                                        columnNumber: 65
+                                                                                                    }, undefined)
+                                                                                                }, void 0, false, {
+                                                                                                    fileName: "src/components/Navbar.js",
+                                                                                                    lineNumber: 49,
+                                                                                                    columnNumber: 61
+                                                                                                }, undefined),
+                                                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                                                                    className: "dropdown-link",
+                                                                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                                                        href: "#",
+                                                                                                        children: "Link 2"
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "src/components/Navbar.js",
                                                                                                         lineNumber: 53,
@@ -27847,7 +27490,7 @@ const Navbar = ()=>{
                                                                                                     className: "dropdown-link",
                                                                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                                         href: "#",
-                                                                                                        children: "Link 2"
+                                                                                                        children: "Link 3"
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "src/components/Navbar.js",
                                                                                                         lineNumber: 56,
@@ -27858,67 +27501,52 @@ const Navbar = ()=>{
                                                                                                     lineNumber: 55,
                                                                                                     columnNumber: 61
                                                                                                 }, undefined),
-                                                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                                    className: "dropdown-link",
-                                                                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                                        href: "#",
-                                                                                                        children: "Link 3"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "src/components/Navbar.js",
-                                                                                                        lineNumber: 59,
-                                                                                                        columnNumber: 65
-                                                                                                    }, undefined)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "src/components/Navbar.js",
-                                                                                                    lineNumber: 58,
-                                                                                                    columnNumber: 61
-                                                                                                }, undefined),
                                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                                     className: "arrow"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "src/components/Navbar.js",
-                                                                                                    lineNumber: 61,
+                                                                                                    lineNumber: 58,
                                                                                                     columnNumber: 61
                                                                                                 }, undefined)
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "src/components/Navbar.js",
-                                                                                            lineNumber: 51,
+                                                                                            lineNumber: 48,
                                                                                             columnNumber: 57
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
                                                                                         fileName: "src/components/Navbar.js",
-                                                                                        lineNumber: 50,
+                                                                                        lineNumber: 47,
                                                                                         columnNumber: 53
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "src/components/Navbar.js",
-                                                                                lineNumber: 48,
+                                                                                lineNumber: 45,
                                                                                 columnNumber: 49
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                 className: "arrow"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/components/Navbar.js",
-                                                                                lineNumber: 65,
+                                                                                lineNumber: 62,
                                                                                 columnNumber: 49
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "src/components/Navbar.js",
-                                                                        lineNumber: 38,
+                                                                        lineNumber: 35,
                                                                         columnNumber: 45
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/components/Navbar.js",
-                                                                    lineNumber: 37,
+                                                                    lineNumber: 34,
                                                                     columnNumber: 41
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 35,
+                                                            lineNumber: 32,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27928,36 +27556,36 @@ const Navbar = ()=>{
                                                                 children: "Link 4"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/Navbar.js",
-                                                                lineNumber: 70,
+                                                                lineNumber: 67,
                                                                 columnNumber: 41
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 69,
+                                                            lineNumber: 66,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                             className: "arrow"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 72,
+                                                            lineNumber: 69,
                                                             columnNumber: 37
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/Navbar.js",
-                                                    lineNumber: 28,
+                                                    lineNumber: 25,
                                                     columnNumber: 33
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/components/Navbar.js",
-                                                lineNumber: 27,
+                                                lineNumber: 24,
                                                 columnNumber: 29
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 25,
+                                        lineNumber: 22,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27974,13 +27602,13 @@ const Navbar = ()=>{
                                                         className: "fas fa-caret-down"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Navbar.js",
-                                                        lineNumber: 77,
+                                                        lineNumber: 74,
                                                         columnNumber: 46
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/Navbar.js",
-                                                lineNumber: 77,
+                                                lineNumber: 74,
                                                 columnNumber: 29
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27994,12 +27622,12 @@ const Navbar = ()=>{
                                                                 children: "Link 1"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/Navbar.js",
-                                                                lineNumber: 81,
+                                                                lineNumber: 78,
                                                                 columnNumber: 41
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 80,
+                                                            lineNumber: 77,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28009,12 +27637,12 @@ const Navbar = ()=>{
                                                                 children: "Link 2"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/Navbar.js",
-                                                                lineNumber: 84,
+                                                                lineNumber: 81,
                                                                 columnNumber: 41
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 83,
+                                                            lineNumber: 80,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28028,13 +27656,13 @@ const Navbar = ()=>{
                                                                             className: "fas fa-caret-down"
                                                                         }, void 0, false, {
                                                                             fileName: "src/components/Navbar.js",
-                                                                            lineNumber: 87,
+                                                                            lineNumber: 84,
                                                                             columnNumber: 59
                                                                         }, undefined)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "src/components/Navbar.js",
-                                                                    lineNumber: 87,
+                                                                    lineNumber: 84,
                                                                     columnNumber: 41
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28046,6 +27674,21 @@ const Navbar = ()=>{
                                                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                     href: "#",
                                                                                     children: "Link 1"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "src/components/Navbar.js",
+                                                                                    lineNumber: 88,
+                                                                                    columnNumber: 53
+                                                                                }, undefined)
+                                                                            }, void 0, false, {
+                                                                                fileName: "src/components/Navbar.js",
+                                                                                lineNumber: 87,
+                                                                                columnNumber: 49
+                                                                            }, undefined),
+                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                                                className: "dropdown-link",
+                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                                    href: "#",
+                                                                                    children: "Link 2"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/components/Navbar.js",
                                                                                     lineNumber: 91,
@@ -28060,7 +27703,7 @@ const Navbar = ()=>{
                                                                                 className: "dropdown-link",
                                                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                     href: "#",
-                                                                                    children: "Link 2"
+                                                                                    children: "Link 3"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/components/Navbar.js",
                                                                                     lineNumber: 94,
@@ -28069,21 +27712,6 @@ const Navbar = ()=>{
                                                                             }, void 0, false, {
                                                                                 fileName: "src/components/Navbar.js",
                                                                                 lineNumber: 93,
-                                                                                columnNumber: 49
-                                                                            }, undefined),
-                                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                className: "dropdown-link",
-                                                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                    href: "#",
-                                                                                    children: "Link 3"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "src/components/Navbar.js",
-                                                                                    lineNumber: 97,
-                                                                                    columnNumber: 53
-                                                                                }, undefined)
-                                                                            }, void 0, false, {
-                                                                                fileName: "src/components/Navbar.js",
-                                                                                lineNumber: 96,
                                                                                 columnNumber: 49
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28097,13 +27725,13 @@ const Navbar = ()=>{
                                                                                                 className: "fas fa-caret-down"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "src/components/Navbar.js",
-                                                                                                lineNumber: 100,
+                                                                                                lineNumber: 97,
                                                                                                 columnNumber: 69
                                                                                             }, undefined)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "src/components/Navbar.js",
-                                                                                        lineNumber: 100,
+                                                                                        lineNumber: 97,
                                                                                         columnNumber: 53
                                                                                     }, undefined),
                                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28115,6 +27743,21 @@ const Navbar = ()=>{
                                                                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                                         href: "#",
                                                                                                         children: "Link 1"
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "src/components/Navbar.js",
+                                                                                                        lineNumber: 101,
+                                                                                                        columnNumber: 65
+                                                                                                    }, undefined)
+                                                                                                }, void 0, false, {
+                                                                                                    fileName: "src/components/Navbar.js",
+                                                                                                    lineNumber: 100,
+                                                                                                    columnNumber: 61
+                                                                                                }, undefined),
+                                                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                                                                    className: "dropdown-link",
+                                                                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                                                        href: "#",
+                                                                                                        children: "Link 2"
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "src/components/Navbar.js",
                                                                                                         lineNumber: 104,
@@ -28129,7 +27772,7 @@ const Navbar = ()=>{
                                                                                                     className: "dropdown-link",
                                                                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                                                                         href: "#",
-                                                                                                        children: "Link 2"
+                                                                                                        children: "Link 3"
                                                                                                     }, void 0, false, {
                                                                                                         fileName: "src/components/Navbar.js",
                                                                                                         lineNumber: 107,
@@ -28140,67 +27783,52 @@ const Navbar = ()=>{
                                                                                                     lineNumber: 106,
                                                                                                     columnNumber: 61
                                                                                                 }, undefined),
-                                                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                                                                    className: "dropdown-link",
-                                                                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                                                                        href: "#",
-                                                                                                        children: "Link 3"
-                                                                                                    }, void 0, false, {
-                                                                                                        fileName: "src/components/Navbar.js",
-                                                                                                        lineNumber: 110,
-                                                                                                        columnNumber: 65
-                                                                                                    }, undefined)
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "src/components/Navbar.js",
-                                                                                                    lineNumber: 109,
-                                                                                                    columnNumber: 61
-                                                                                                }, undefined),
                                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                                     className: "arrow"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "src/components/Navbar.js",
-                                                                                                    lineNumber: 112,
+                                                                                                    lineNumber: 109,
                                                                                                     columnNumber: 61
                                                                                                 }, undefined)
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "src/components/Navbar.js",
-                                                                                            lineNumber: 102,
+                                                                                            lineNumber: 99,
                                                                                             columnNumber: 57
                                                                                         }, undefined)
                                                                                     }, void 0, false, {
                                                                                         fileName: "src/components/Navbar.js",
-                                                                                        lineNumber: 101,
+                                                                                        lineNumber: 98,
                                                                                         columnNumber: 53
                                                                                     }, undefined)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "src/components/Navbar.js",
-                                                                                lineNumber: 99,
+                                                                                lineNumber: 96,
                                                                                 columnNumber: 49
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                                 className: "arrow"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/components/Navbar.js",
-                                                                                lineNumber: 116,
+                                                                                lineNumber: 113,
                                                                                 columnNumber: 49
                                                                             }, undefined)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "src/components/Navbar.js",
-                                                                        lineNumber: 89,
+                                                                        lineNumber: 86,
                                                                         columnNumber: 45
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/components/Navbar.js",
-                                                                    lineNumber: 88,
+                                                                    lineNumber: 85,
                                                                     columnNumber: 41
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 86,
+                                                            lineNumber: 83,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28210,36 +27838,36 @@ const Navbar = ()=>{
                                                                 children: "Link 4"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/Navbar.js",
-                                                                lineNumber: 121,
+                                                                lineNumber: 118,
                                                                 columnNumber: 41
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 120,
+                                                            lineNumber: 117,
                                                             columnNumber: 37
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                             className: "arrow"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Navbar.js",
-                                                            lineNumber: 123,
+                                                            lineNumber: 120,
                                                             columnNumber: 37
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/Navbar.js",
-                                                    lineNumber: 79,
+                                                    lineNumber: 76,
                                                     columnNumber: 33
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/components/Navbar.js",
-                                                lineNumber: 78,
+                                                lineNumber: 75,
                                                 columnNumber: 29
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 76,
+                                        lineNumber: 73,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28252,12 +27880,12 @@ const Navbar = ()=>{
                                             children: "About"
                                         }, void 0, false, {
                                             fileName: "src/components/Navbar.js",
-                                            lineNumber: 128,
+                                            lineNumber: 125,
                                             columnNumber: 29
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 127,
+                                        lineNumber: 124,
                                         columnNumber: 25
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28270,23 +27898,23 @@ const Navbar = ()=>{
                                             children: "Contact"
                                         }, void 0, false, {
                                             fileName: "src/components/Navbar.js",
-                                            lineNumber: 131,
+                                            lineNumber: 128,
                                             columnNumber: 29
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/Navbar.js",
-                                        lineNumber: 130,
+                                        lineNumber: 127,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Navbar.js",
-                                lineNumber: 19,
+                                lineNumber: 16,
                                 columnNumber: 21
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
-                            lineNumber: 18,
+                            lineNumber: 15,
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28301,7 +27929,7 @@ const Navbar = ()=>{
                                     children: "Log in"
                                 }, void 0, false, {
                                     fileName: "src/components/Navbar.js",
-                                    lineNumber: 137,
+                                    lineNumber: 134,
                                     columnNumber: 21
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28310,19 +27938,19 @@ const Navbar = ()=>{
                                     children: "Sign up"
                                 }, void 0, false, {
                                     fileName: "src/components/Navbar.js",
-                                    lineNumber: 138,
+                                    lineNumber: 135,
                                     columnNumber: 21
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Navbar.js",
-                            lineNumber: 136,
+                            lineNumber: 133,
                             columnNumber: 17
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 17,
+                    lineNumber: 14,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28331,28 +27959,28 @@ const Navbar = ()=>{
                         className: "hamburger-menu",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
                             fileName: "src/components/Navbar.js",
-                            lineNumber: 144,
+                            lineNumber: 141,
                             columnNumber: 21
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Navbar.js",
-                        lineNumber: 143,
+                        lineNumber: 140,
                         columnNumber: 17
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 142,
+                    lineNumber: 139,
                     columnNumber: 13
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/Navbar.js",
-            lineNumber: 10,
+            lineNumber: 7,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/Navbar.js",
-        lineNumber: 9,
+        lineNumber: 6,
         columnNumber: 1
     }, undefined);
 };
@@ -34898,7 +34526,175 @@ function persistAppliedTransitions(_window, transitions) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7WWNc":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("7422ead32dcc1e6b");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports;
+                // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+                // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        var typeID = id + " %exports% " + key;
+        Refresh.register(exportValue, typeID);
+    }
+}
+
+},{"7422ead32dcc1e6b":"786KC"}],"7WWNc":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$f3f0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34910,8 +34706,6 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactAwesomeReveal = require("react-awesome-reveal");
-var _resumePng = require("../assets/Resume.png");
-var _resumePngDefault = parcelHelpers.interopDefault(_resumePng);
 function Head() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Fade), {
         triggerOnce: true,
@@ -35106,7 +34900,7 @@ $RefreshReg$(_c, "Head");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/Resume.png":"hfrUw"}],"lNm3w":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lNm3w":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AttentionSeeker", ()=>AttentionSeeker);
@@ -40636,10 +40430,7 @@ module.exports = require("2255125a8e8b1051");
     exports.typeOf = typeOf;
 })();
 
-},{}],"hfrUw":[function(require,module,exports) {
-module.exports = require("f275d6d70eb41217").getBundleURL("aXMci") + "Resume.1e3d7714.png" + "?" + Date.now();
-
-},{"f275d6d70eb41217":"lgJ39"}],"cgZMh":[function(require,module,exports) {
+},{}],"cgZMh":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b7ac = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40661,31 +40452,15 @@ const Challenge = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "flex gap-5 items-center text-4xl font-semibold text-amber-300 whitespace-nowrap md:flex-wrap",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "shrink-0 self-stretch my-auto h-px border border-solid bg-stone-900 border-stone-900 w-[143px]"
-                        }, void 0, false, {
-                            fileName: "src/components/challenge.js",
-                            lineNumber: 9,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex-auto self-stretch",
-                            children: "CHALLENGE"
-                        }, void 0, false, {
-                            fileName: "src/components/challenge.js",
-                            lineNumber: 10,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "shrink-0 self-stretch my-auto h-px border border-solid bg-stone-900 border-stone-900 w-[143px]"
-                        }, void 0, false, {
-                            fileName: "src/components/challenge.js",
-                            lineNumber: 11,
-                            columnNumber: 17
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex-auto self-stretch",
+                        children: "CHALLENGE"
+                    }, void 0, false, {
+                        fileName: "src/components/challenge.js",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/components/challenge.js",
                     lineNumber: 8,
                     columnNumber: 13
@@ -40695,7 +40470,7 @@ const Challenge = ()=>{
                     children: "Elevate your skills and embrace growth with our Regular Challenge \u2013 a daily journey to unlock your full potential."
                 }, void 0, false, {
                     fileName: "src/components/challenge.js",
-                    lineNumber: 13,
+                    lineNumber: 11,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40705,12 +40480,12 @@ const Challenge = ()=>{
                         alt: "challenge"
                     }, void 0, false, {
                         fileName: "src/components/challenge.js",
-                        lineNumber: 18,
+                        lineNumber: 16,
                         columnNumber: 17
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/challenge.js",
-                    lineNumber: 17,
+                    lineNumber: 15,
                     columnNumber: 13
                 }, undefined)
             ]
@@ -40738,7 +40513,42 @@ $RefreshReg$(_c, "Challenge");
 },{"react/jsx-dev-runtime":"iTorj","../assets/c1.jpeg":"1Kc9u","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1Kc9u":[function(require,module,exports) {
 module.exports = require("7183dc0cb785b2ce").getBundleURL("aXMci") + "c1.26349143.jpeg" + "?" + Date.now();
 
-},{"7183dc0cb785b2ce":"lgJ39"}],"fQFy1":[function(require,module,exports) {
+},{"7183dc0cb785b2ce":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"fQFy1":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d3cf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
