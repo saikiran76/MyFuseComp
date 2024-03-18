@@ -596,3 +596,16 @@ html {
   background: #d7d7d7;
   border-radius: 20px;
 }
+
+.challenge{
+    background-image: url('../src/assets/comp.png');
+    height: 90vh;
+}
+
+.scaler{
+    height: 40%;
+    width: 40%;
+    opacity: 30%;
+ 
+}
+

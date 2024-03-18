@@ -27,17 +27,6 @@ function Landing() {
                   Discover a world of opportunities with Internships, projects and
                   lot more..
                 </div>
-                {/* <div
-                  className="overflow-hidden relative flex-col justify-center items-start px-16 py-7 mt-6 max-w-full text-xl text-black aspect-[3.26] fill-white w-[215px] max-md:pr-5 max-md:pl-6"
-                  onMouseEnter={handleButtonHover}
-                  onMouseLeave={handleButtonLeave}
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/7488f93d60227446170bb92033886c5ef102284f65c296149387ec01bce82e8f?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&"
-                    className="object-cover absolute inset-0 size-full"
-                  />
-                </div> */}
               </div>
             </div>
             <div className="flex flex-col ml-5 w-[61%] max-md:ml-0 max-md:w-full">

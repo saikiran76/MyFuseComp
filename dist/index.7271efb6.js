@@ -34706,187 +34706,198 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactAwesomeReveal = require("react-awesome-reveal");
+var _stuPng = require("../assets/stu.png");
+var _stuPngDefault = parcelHelpers.interopDefault(_stuPng);
 function Head() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Fade), {
         triggerOnce: true,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex flex-col md:flex-row md:gap-5 flex-wrap bg-gradient-to-br from-purple-900 to-black relative p-20",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "mt-4 mb-6 w-full max-w-[1155px] md:max-w-full",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-col md:flex-row md:gap-5",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex flex-col w-full md:w-1/2",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex flex-col mt-2.5 text-2xl text-white md:mt-10",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-3xl font-bold",
-                                        children: "A world of Endless Opportunities"
-                                    }, void 0, false, {
-                                        fileName: "src/components/newHeader.js",
-                                        lineNumber: 13,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "mt-3 font-light",
-                                        children: "Discover a world of opportunities with Internships, projects and lot more.."
-                                    }, void 0, false, {
-                                        fileName: "src/components/newHeader.js",
-                                        lineNumber: 16,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "mt-6 font-semibold text-amber-300",
-                                        children: "Join a vibrant community that paves the way to success."
-                                    }, void 0, false, {
-                                        fileName: "src/components/newHeader.js",
-                                        lineNumber: 19,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/newHeader.js",
-                                lineNumber: 12,
-                                columnNumber: 25
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/newHeader.js",
-                            lineNumber: 11,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "grow",
+            className: "land flex flex-col md:flex-row md:gap-5 flex-wrap bg-gradient-to-br from-purple-900 to-black relative p-20",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "scaler absolute left-4 bottom-4 hidden sm:block",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "",
+                        src: (0, _stuPngDefault.default)
+                    }, void 0, false, {
+                        fileName: "src/components/newHeader.js",
+                        lineNumber: 11,
+                        columnNumber: 17
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/newHeader.js",
+                    lineNumber: 10,
+                    columnNumber: 13
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "mt-4 mb-6 w-full max-w-[1155px] md:max-w-full",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex flex-col md:flex-row md:gap-5",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex flex-col w-full md:w-1/2",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex flex-col md:flex-row md:gap-5",
+                                    className: "flex flex-col mt-2.5 text-2xl text-white md:mt-10",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "flex flex-col w-full md:w-1/2",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "flex flex-col grow text-3xl text-white md:mt-6",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "items-start px-4 pt-6 pb-16 whitespace-nowrap bg-gradient-to-br from-pink-600 to-red-900 rounded-md transition duration-300 hover:bg-red-600 cursor-pointer",
-                                                        children: "Learn"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/newHeader.js",
-                                                        lineNumber: 29,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "items-start px-4 pt-6 pb-16 mt-5 whitespace-nowrap rounded-md border-4 border-black border-solid shadow-md bg-zinc-300 transition duration-300 hover:bg-zinc-400 cursor-pointer",
-                                                        children: "Challenge"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/newHeader.js",
-                                                        lineNumber: 32,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer  w-1/2",
-                                                        children: "Join us"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/newHeader.js",
-                                                        lineNumber: 35,
-                                                        columnNumber: 41
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/newHeader.js",
-                                                lineNumber: 28,
-                                                columnNumber: 37
-                                            }, this)
+                                            className: "text-3xl font-bold",
+                                            children: "A world of Endless Opportunities"
                                         }, void 0, false, {
                                             fileName: "src/components/newHeader.js",
-                                            lineNumber: 27,
-                                            columnNumber: 33
+                                            lineNumber: 17,
+                                            columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "flex flex-col grow text-white md:mt-6",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "flex flex-col px-3 py-6 bg-indigo-600 rounded-md border-black border-solid shadow-md border-[3px] transition duration-300 hover:bg-indigo-700 cursor-pointer",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "text-xl",
-                                                                children: "AI Resume"
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/newHeader.js",
-                                                                lineNumber: 43,
-                                                                columnNumber: 45
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                className: "self-end mt-20 text-xl",
-                                                                children: "New"
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/newHeader.js",
-                                                                lineNumber: 44,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "src/components/newHeader.js",
-                                                        lineNumber: 42,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "items-start px-5 pt-7 pb-20 mt-7 text-xl whitespace-nowrap bg-green-300 bg-gradient-to-r from-green-300 to-black rounded-md transition duration-300 hover:bg-lime-900 cursor-pointer",
-                                                        children: "Jobs"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/newHeader.js",
-                                                        lineNumber: 49,
-                                                        columnNumber: 41
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/newHeader.js",
-                                                lineNumber: 41,
-                                                columnNumber: 37
-                                            }, this)
+                                            className: "mt-6 font-semibold text-amber-300",
+                                            children: "Join a vibrant community that paves the way to success."
                                         }, void 0, false, {
                                             fileName: "src/components/newHeader.js",
-                                            lineNumber: 40,
-                                            columnNumber: 33
+                                            lineNumber: 20,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer  w-28",
+                                            children: "Join us"
+                                        }, void 0, false, {
+                                            fileName: "src/components/newHeader.js",
+                                            lineNumber: 24,
+                                            columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/newHeader.js",
-                                    lineNumber: 26,
-                                    columnNumber: 29
+                                    lineNumber: 16,
+                                    columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/newHeader.js",
-                                lineNumber: 25,
-                                columnNumber: 25
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "grow",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "flex flex-col md:flex-row md:gap-5",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex flex-col w-full md:w-1/2",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "flex flex-col grow text-3xl text-white md:mt-6",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "items-start px-4 pt-6 pb-16 whitespace-nowrap bg-gradient-to-br from-pink-600 to-red-900 rounded-2xl transition duration-300 hover:bg-red-600 cursor-pointer",
+                                                            children: "Learn"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/newHeader.js",
+                                                            lineNumber: 35,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "items-start px-4 pt-6 pb-16 mt-5 whitespace-nowrap rounded-2xl border-4 border-black border-solid shadow-md bg-zinc-300 transition duration-300 hover:bg-zinc-400 cursor-pointer",
+                                                            children: "Challenge"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/newHeader.js",
+                                                            lineNumber: 38,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/newHeader.js",
+                                                    lineNumber: 34,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/newHeader.js",
+                                                lineNumber: 33,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "flex flex-col grow text-white md:mt-6",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "flex flex-col px-3 py-6 bg-indigo-600 rounded-2xl border-black border-solid shadow-md border-[3px] transition duration-300 hover:bg-indigo-700 cursor-pointer",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                    className: "text-xl",
+                                                                    children: "AI Resume"
+                                                                }, void 0, false, {
+                                                                    fileName: "src/components/newHeader.js",
+                                                                    lineNumber: 47,
+                                                                    columnNumber: 45
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                    className: "self-end mt-20 text-xl",
+                                                                    children: "New"
+                                                                }, void 0, false, {
+                                                                    fileName: "src/components/newHeader.js",
+                                                                    lineNumber: 48,
+                                                                    columnNumber: 45
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "src/components/newHeader.js",
+                                                            lineNumber: 46,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "items-start px-5 pt-7 pb-20 mt-7 text-xl whitespace-nowrap bg-green-300 bg-gradient-to-r from-green-300 to-black rounded-2xl transition duration-300 hover:bg-lime-900 cursor-pointer",
+                                                            children: "Jobs"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/newHeader.js",
+                                                            lineNumber: 53,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/newHeader.js",
+                                                    lineNumber: 45,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/newHeader.js",
+                                                lineNumber: 44,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/newHeader.js",
+                                        lineNumber: 32,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/newHeader.js",
+                                    lineNumber: 31,
+                                    columnNumber: 25
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/newHeader.js",
+                                lineNumber: 30,
+                                columnNumber: 21
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/newHeader.js",
-                            lineNumber: 24,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/newHeader.js",
+                        lineNumber: 14,
+                        columnNumber: 17
+                    }, this)
+                }, void 0, false, {
                     fileName: "src/components/newHeader.js",
-                    lineNumber: 10,
-                    columnNumber: 17
+                    lineNumber: 13,
+                    columnNumber: 13
                 }, this)
-            }, void 0, false, {
-                fileName: "src/components/newHeader.js",
-                lineNumber: 9,
-                columnNumber: 13
-            }, this)
-        }, void 0, false, {
+            ]
+        }, void 0, true, {
             fileName: "src/components/newHeader.js",
-            lineNumber: 8,
+            lineNumber: 9,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "src/components/newHeader.js",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 9
     }, this);
 }
@@ -34900,7 +34911,7 @@ $RefreshReg$(_c, "Head");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lNm3w":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/stu.png":"dRT0C"}],"lNm3w":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AttentionSeeker", ()=>AttentionSeeker);
@@ -40430,90 +40441,10 @@ module.exports = require("2255125a8e8b1051");
     exports.typeOf = typeOf;
 })();
 
-},{}],"cgZMh":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b7ac = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b7ac.prelude(module);
+},{}],"dRT0C":[function(require,module,exports) {
+module.exports = require("473af06c7b215d64").getBundleURL("aXMci") + "stu.4ac5261a.png" + "?" + Date.now();
 
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _c1Jpeg = require("../assets/c1.jpeg");
-var _c1JpegDefault = parcelHelpers.interopDefault(_c1Jpeg);
-var _reactAwesomeReveal = require("react-awesome-reveal");
-const Challenge = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Fade), {
-        cascade: true,
-        triggerOnce: true,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex flex-col items-center px-5 py-14 md:px-20 shadow-sm bg-gradient-to-br from-purple-900 to-black relative p-20 md:max-md:px-5",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex gap-5 items-center text-4xl font-semibold text-amber-300 whitespace-nowrap md:flex-wrap",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "flex-auto self-stretch",
-                        children: "CHALLENGE"
-                    }, void 0, false, {
-                        fileName: "src/components/challenge.js",
-                        lineNumber: 9,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/challenge.js",
-                    lineNumber: 8,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "mt-10 text-xl font-medium text-white max-md:mt-10 max-md:max-w-full text-center",
-                    children: "Elevate your skills and embrace growth with our Regular Challenge \u2013 a daily journey to unlock your full potential."
-                }, void 0, false, {
-                    fileName: "src/components/challenge.js",
-                    lineNumber: 11,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "md:mt-10 max-w-full bg-gradient-to-r from-[#093028] to-[#237a57] rounded border border-black border-solid blur-[0.5px] h-[250px] md:w-[90%] h-32 md:h-48 m-4",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _c1JpegDefault.default),
-                        alt: "challenge"
-                    }, void 0, false, {
-                        fileName: "src/components/challenge.js",
-                        lineNumber: 16,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/challenge.js",
-                    lineNumber: 15,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/challenge.js",
-            lineNumber: 7,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/challenge.js",
-        lineNumber: 6,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Challenge;
-exports.default = Challenge;
-var _c;
-$RefreshReg$(_c, "Challenge");
-
-  $parcel$ReactRefreshHelpers$b7ac.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../assets/c1.jpeg":"1Kc9u","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1Kc9u":[function(require,module,exports) {
-module.exports = require("7183dc0cb785b2ce").getBundleURL("aXMci") + "c1.26349143.jpeg" + "?" + Date.now();
-
-},{"7183dc0cb785b2ce":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"473af06c7b215d64":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -40548,7 +40479,124 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"fQFy1":[function(require,module,exports) {
+},{}],"cgZMh":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b7ac = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b7ac.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _compPng = require("../assets/comp.png");
+var _compPngDefault = parcelHelpers.interopDefault(_compPng);
+function Challenge() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "flex flex-col justify-center text-white bg-neutral-700",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex flex-col justify-center w-full bg-zinc-50 max-md:max-w-full",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex overflow-hidden relative flex-col justify-center items-start px-14 py-12 w-full min-h-[430px] max-md:px-5 max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        loading: "lazy",
+                        srcSet: "https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2be6c2e147067297934ff77d6d50c36d22341b9b64ac332f1b086fb36a51e245?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&",
+                        className: "object-cover absolute inset-0 size-full"
+                    }, void 0, false, {
+                        fileName: "src/components/challenge.js",
+                        lineNumber: 10,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex overflow-hidden relative flex-col items-start py-16 pr-20 pl-9 max-w-full backdrop-blur-none min-h-[335px] w-[766px] max-md:px-5",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/e4ce6200578acbf5f9baa48460b5be32ba47779ca3212a0603b478f2d02d44be?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&",
+                                className: "object-cover absolute inset-0 size-full"
+                            }, void 0, false, {
+                                fileName: "src/components/challenge.js",
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "relative mt-5 text-4xl font-extrabold text-black max-md:max-w-full",
+                                children: "Re-imagine MyFuse"
+                            }, void 0, false, {
+                                fileName: "src/components/challenge.js",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "relative mt-1.5 text-2xl mix-blend-hard-light max-md:max-w-full",
+                                children: "Design and Code Competition"
+                            }, void 0, false, {
+                                fileName: "src/components/challenge.js",
+                                lineNumber: 24,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "relative mt-7 text-2xl max-md:max-w-full",
+                                children: [
+                                    "Design your Future, Code your Success..",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/challenge.js",
+                                        lineNumber: 29,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/challenge.js",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "relative justify-center px-5 py-2.5 mt-5 text-base bg-red-800 max-md:pr-5",
+                                children: "Registration Ended"
+                            }, void 0, false, {
+                                fileName: "src/components/challenge.js",
+                                lineNumber: 31,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/challenge.js",
+                        lineNumber: 15,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/challenge.js",
+                lineNumber: 9,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/challenge.js",
+            lineNumber: 8,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/challenge.js",
+        lineNumber: 7,
+        columnNumber: 5
+    }, this);
+}
+_c = Challenge;
+exports.default = Challenge;
+var _c;
+$RefreshReg$(_c, "Challenge");
+
+  $parcel$ReactRefreshHelpers$b7ac.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","../assets/comp.png":"8TivI"}],"8TivI":[function(require,module,exports) {
+module.exports = require("ea9bd11a43d5fce5").getBundleURL("aXMci") + "comp.638a2a3f.png" + "?" + Date.now();
+
+},{"ea9bd11a43d5fce5":"lgJ39"}],"fQFy1":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d3cf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40617,7 +40665,7 @@ function Landing() {
                                             className: "object-cover absolute inset-0 w-full h-full top-5"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 45,
+                                            lineNumber: 34,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40625,7 +40673,7 @@ function Landing() {
                                             children: "300+"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 50,
+                                            lineNumber: 39,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40633,7 +40681,7 @@ function Landing() {
                                             children: "Jobs"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 51,
+                                            lineNumber: 40,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40641,7 +40689,7 @@ function Landing() {
                                             children: "2.5K+"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 54,
+                                            lineNumber: 43,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40649,18 +40697,18 @@ function Landing() {
                                             children: "Active Students"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 57,
+                                            lineNumber: 46,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/landing.js",
-                                    lineNumber: 44,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/landing.js",
-                                lineNumber: 43,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -40690,7 +40738,7 @@ function Landing() {
                                             className: "object-cover absolute inset-0 size-full"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 68,
+                                            lineNumber: 57,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40701,7 +40749,7 @@ function Landing() {
                                                     children: "Learn"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 75,
+                                                    lineNumber: 64,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40709,7 +40757,7 @@ function Landing() {
                                                     children: "Lorem ipsum dolor sit amet,"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 76,
+                                                    lineNumber: 65,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40717,7 +40765,7 @@ function Landing() {
                                                     children: "consectetur adipiscing"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 79,
+                                                    lineNumber: 68,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40725,7 +40773,7 @@ function Landing() {
                                                     children: "elit. Cursus imperdiet sed"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 82,
+                                                    lineNumber: 71,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40733,24 +40781,24 @@ function Landing() {
                                                     children: "id elementum."
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 85,
+                                                    lineNumber: 74,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 73,
+                                            lineNumber: 62,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/landing.js",
-                                    lineNumber: 67,
+                                    lineNumber: 56,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/landing.js",
-                                lineNumber: 66,
+                                lineNumber: 55,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40764,7 +40812,7 @@ function Landing() {
                                             className: "object-cover absolute inset-0 size-full"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 90,
+                                            lineNumber: 79,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40775,7 +40823,7 @@ function Landing() {
                                                     children: "Challenge"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 97,
+                                                    lineNumber: 86,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40783,7 +40831,7 @@ function Landing() {
                                                     children: "Lorem ipsum dolor sit amet,"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 98,
+                                                    lineNumber: 87,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40791,7 +40839,7 @@ function Landing() {
                                                     children: "consectetur adipiscing"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 101,
+                                                    lineNumber: 90,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40799,7 +40847,7 @@ function Landing() {
                                                     children: "elit. Cursus imperdiet sed"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 104,
+                                                    lineNumber: 93,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40807,24 +40855,24 @@ function Landing() {
                                                     children: "id elementum."
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 107,
+                                                    lineNumber: 96,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 95,
+                                            lineNumber: 84,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/landing.js",
-                                    lineNumber: 89,
+                                    lineNumber: 78,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/landing.js",
-                                lineNumber: 88,
+                                lineNumber: 77,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40838,7 +40886,7 @@ function Landing() {
                                             className: "object-cover absolute inset-0 size-full"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 112,
+                                            lineNumber: 101,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40849,7 +40897,7 @@ function Landing() {
                                                     children: "Jobs"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 119,
+                                                    lineNumber: 108,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40857,7 +40905,7 @@ function Landing() {
                                                     children: "Lorem ipsum dolor sit amet,"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 120,
+                                                    lineNumber: 109,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40865,7 +40913,7 @@ function Landing() {
                                                     children: "consectetur adipiscing"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 123,
+                                                    lineNumber: 112,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40873,7 +40921,7 @@ function Landing() {
                                                     children: "elit. Cursus imperdiet sed"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 126,
+                                                    lineNumber: 115,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40881,24 +40929,24 @@ function Landing() {
                                                     children: "id elementum."
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 129,
+                                                    lineNumber: 118,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 117,
+                                            lineNumber: 106,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/landing.js",
-                                    lineNumber: 111,
+                                    lineNumber: 100,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/landing.js",
-                                lineNumber: 110,
+                                lineNumber: 99,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40912,7 +40960,7 @@ function Landing() {
                                             className: "object-cover absolute inset-0 size-full"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 134,
+                                            lineNumber: 123,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40923,7 +40971,7 @@ function Landing() {
                                                     children: "AI Resume"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 142,
+                                                    lineNumber: 131,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40931,7 +40979,7 @@ function Landing() {
                                                     children: "Lorem ipsum dolor sit amet,"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 145,
+                                                    lineNumber: 134,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40939,7 +40987,7 @@ function Landing() {
                                                     children: "consectetur adipiscing"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 148,
+                                                    lineNumber: 137,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40947,7 +40995,7 @@ function Landing() {
                                                     children: "elit. Cursus imperdiet sed"
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 151,
+                                                    lineNumber: 140,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -40955,35 +41003,35 @@ function Landing() {
                                                     children: "id elementum."
                                                 }, void 0, false, {
                                                     fileName: "src/components/landing.js",
-                                                    lineNumber: 154,
+                                                    lineNumber: 143,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/landing.js",
-                                            lineNumber: 139,
+                                            lineNumber: 128,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/landing.js",
-                                    lineNumber: 133,
+                                    lineNumber: 122,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/landing.js",
-                                lineNumber: 132,
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/landing.js",
-                        lineNumber: 65,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/landing.js",
-                    lineNumber: 64,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             ]
