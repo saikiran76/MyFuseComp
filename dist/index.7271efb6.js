@@ -2966,33 +2966,47 @@ var _challenge = require("./components/challenge");
 var _challengeDefault = parcelHelpers.interopDefault(_challenge);
 var _landing = require("./components/landing");
 var _landingDefault = parcelHelpers.interopDefault(_landing);
+var _company = require("./components/company");
+var _companyDefault = parcelHelpers.interopDefault(_company);
+var _spotlight = require("./components/spotlight");
+var _spotlightDefault = parcelHelpers.interopDefault(_spotlight);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 13,
+                lineNumber: 15,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 15,
+                lineNumber: 17,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 18,
+                lineNumber: 20,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _challengeDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 19,
+                lineNumber: 21,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _companyDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 22,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _spotlightDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 23,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 11,
+        lineNumber: 13,
         columnNumber: 14
     }, undefined);
 };
@@ -3002,7 +3016,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 27,
+            lineNumber: 31,
             columnNumber: 18
         }, undefined),
         children: [
@@ -3010,7 +3024,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Home",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 30,
+                    lineNumber: 34,
                     columnNumber: 26
                 }, undefined)
             },
@@ -3018,7 +3032,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/login",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 34,
+                    lineNumber: 38,
                     columnNumber: 26
                 }, undefined)
             }
@@ -3030,7 +3044,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 45,
+    lineNumber: 49,
     columnNumber: 14
 }, undefined));
 var _c;
@@ -3041,7 +3055,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/company":"58NAi","./components/spotlight":"fYbxK"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27243,6 +27257,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 const Navbar = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        className: "bg-gradient-to-br from-purple-900 to-black",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "container h-13",
             children: [
@@ -41059,6 +41074,271 @@ $RefreshReg$(_c, "Landing");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/s.png":"2xpr7"}],"2xpr7":[function(require,module,exports) {
 module.exports = require("875beb478dc12e5d").getBundleURL("aXMci") + "s.caa99d97.png" + "?" + Date.now();
 
-},{"875beb478dc12e5d":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
+},{"875beb478dc12e5d":"lgJ39"}],"58NAi":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7f39 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7f39.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _logo1Png = require("../logo1.png");
+var _logo1PngDefault = parcelHelpers.interopDefault(_logo1Png);
+const Company = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-container", {
+            class: "mySwiper",
+            pagination: "true",
+            effect: "coverflow",
+            "grab-cursor": "true",
+            "centered-slides": "true",
+            "slides-per-view": "auto",
+            "coverflow-effect-rotate": "50",
+            "coverflow-effect-stretch": "0",
+            "coverflow-effect-depth": "100",
+            "coverflow-effect-modifier": "1",
+            "coverflow-effect-slide-shadows": "true",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _logo1PngDefault.default),
+                        alt: "accenture"
+                    }, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 10,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 9,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://www.myfuse.in/uploads/logo/sw.png"
+                    }, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 13,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 12,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%202.06.14%20PM.png"
+                    }, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 16,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 15,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%201.05.00%20PM.png"
+                    }, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 19,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 18,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%202.00.31%20PM.png"
+                    }, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 22,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 21,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%201.25.19%20PM.png"
+                    }, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 25,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 24,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 28,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 27,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 31,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 30,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-slide", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
+                        fileName: "src/components/company.js",
+                        lineNumber: 34,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/company.js",
+                    lineNumber: 33,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/company.js",
+            lineNumber: 6,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/company.js",
+        lineNumber: 5,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Company;
+exports.default = Company;
+var _c;
+$RefreshReg$(_c, "Company");
+
+  $parcel$ReactRefreshHelpers$7f39.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../logo1.png":"50gor","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"50gor":[function(require,module,exports) {
+module.exports = require("7e6c7f2edbdf7e24").getBundleURL("aXMci") + "logo1.dbb5b3dd.png" + "?" + Date.now();
+
+},{"7e6c7f2edbdf7e24":"lgJ39"}],"fYbxK":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5c99 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5c99.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _dePng = require("../assets/de.png");
+var _dePngDefault = parcelHelpers.interopDefault(_dePng);
+function Spotlight() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "flex flex-col justify-center text-white bg-neutral-700",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex flex-col justify-center w-full bg-zinc-50 max-md:max-w-full",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex overflow-hidden relative flex-col justify-center items-start px-14 py-12 w-full min-h-[430px] max-md:px-5 max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        loading: "lazy",
+                        src: (0, _dePngDefault.default),
+                        className: "object-cover absolute inset-0 size-full"
+                    }, void 0, false, {
+                        fileName: "src/components/spotlight.js",
+                        lineNumber: 7,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex overflow-hidden relative flex-col items-start py-16 pr-20 pl-9 max-w-full backdrop-blur-none min-h-[335px] w-[900px] max-md:px-5",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/e4ce6200578acbf5f9baa48460b5be32ba47779ca3212a0603b478f2d02d44be?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&",
+                                className: "object-cover absolute inset-0 size-full"
+                            }, void 0, false, {
+                                fileName: "src/components/spotlight.js",
+                                lineNumber: 13,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "relative mt-5 text-4xl font-extrabold text-black max-md:max-w-full",
+                                children: "UNLOCKING YOUR PROFESSIONAL FUTURE:"
+                            }, void 0, false, {
+                                fileName: "src/components/spotlight.js",
+                                lineNumber: 18,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "relative mt-1.5 text-2xl mix-blend-hard-light max-md:max-w-full",
+                                children: "In the fast-paced and competitive job market, students face the challenge of not only excelling academically but also becoming employable even before graduation."
+                            }, void 0, false, {
+                                fileName: "src/components/spotlight.js",
+                                lineNumber: 21,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer w-28 ",
+                                children: "Join us"
+                            }, void 0, false, {
+                                fileName: "src/components/spotlight.js",
+                                lineNumber: 25,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/spotlight.js",
+                        lineNumber: 12,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/spotlight.js",
+                lineNumber: 6,
+                columnNumber: 11
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/spotlight.js",
+            lineNumber: 5,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/spotlight.js",
+        lineNumber: 4,
+        columnNumber: 7
+    }, this);
+}
+_c = Spotlight;
+exports.default = Spotlight;
+var _c;
+$RefreshReg$(_c, "Spotlight");
+
+  $parcel$ReactRefreshHelpers$5c99.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../assets/de.png":"7414x","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7414x":[function(require,module,exports) {
+module.exports = require("63940cb3a895c8f7").getBundleURL("aXMci") + "de.681bf9ed.png" + "?" + Date.now();
+
+},{"63940cb3a895c8f7":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
 
 //# sourceMappingURL=index.7271efb6.js.map

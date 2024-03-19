@@ -60,11 +60,6 @@ function Head() {
                     </div>
                 </div>
             </div>
-            {/* <div className = "ocean text-gray-900" >
-                <div className = "wave" > </div>  
-                <div className = "wave" > </div>  
-                <div className = "wave" > </div>  
-            </div>  */}
         </div>
 
         

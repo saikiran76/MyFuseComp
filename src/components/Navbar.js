@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-<header>
+<header className="bg-gradient-to-br from-purple-900 to-black">
         <div className="container h-13">
             <input type="checkbox" name="" id="check"/>
             

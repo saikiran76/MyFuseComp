@@ -10,19 +10,19 @@ const Company = () =>{
             <img src={logo} alt="accenture"/>
             </swiper-slide>
             <swiper-slide>
-            <img  />
+            <img src="https://www.myfuse.in/uploads/logo/sw.png" />
             </swiper-slide>
             <swiper-slide>
-            <img  />
+            <img src="https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%202.06.14%20PM.png"/>
             </swiper-slide>
             <swiper-slide>
-            <img  />
+            <img src="https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%201.05.00%20PM.png" />
             </swiper-slide>
             <swiper-slide>
-            <img  />
+            <img src="https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%202.00.31%20PM.png"  />
             </swiper-slide>
             <swiper-slide>
-            <img  />
+            <img src="https://www.myfuse.in/uploads/logo/Screenshot%202023-09-30%20at%201.25.19%20PM.png"  />
             </swiper-slide>
             <swiper-slide>
             <img  />
@@ -34,7 +34,6 @@ const Company = () =>{
             <img  />
             </swiper-slide>
         </swiper-container>
-        <h2 className="text-center text-3xl m-2 font-['poppins'] font-extrabold bg-white">Company Spotlight</h2>
     </div>
     )
 }

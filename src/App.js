@@ -6,6 +6,8 @@ import { RouterProvider } from "react-router-dom";
 import Head from "./components/newHeader";
 import Challenge from "./components/challenge";
 import Landing from "./components/landing";
+import Company from "./components/company";
+import Spotlight from "./components/spotlight";
 
 const App = () => {
     return ( <
@@ -17,6 +19,8 @@ const App = () => {
         
         <Landing/>
         <Challenge/>
+        <Company/>
+        <Spotlight/>
 
         </div>
     )
