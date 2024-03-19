@@ -346,11 +346,6 @@ img, video {
   top: 1.25rem;
 }
 
-.mx-2 {
-  margin-left: .5rem;
-  margin-right: .5rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -472,10 +467,6 @@ img, video {
   min-height: 673px;
 }
 
-.min-h-\[455px\] {
-  min-height: 455px;
-}
-
 .w-28 {
   width: 7rem;
 }
@@ -496,16 +487,12 @@ img, video {
   width: 766px;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-\[900px\] {
   width: 900px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[1155px\] {
@@ -838,18 +825,6 @@ img, video {
   padding-top: 2rem;
 }
 
-.pl-16 {
-  padding-left: 4rem;
-}
-
-.pr-40 {
-  padding-right: 10rem;
-}
-
-.pt-44 {
-  padding-top: 11rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -932,11 +907,6 @@ img, video {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
@@ -947,19 +917,9 @@ img, video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-yellow-400 {
+.text-yellow-500 {
   --tw-text-opacity: 1;
-  color: rgb(250 204 21 / var(--tw-text-opacity));
-}
-
-.text-yellow-600 {
-  --tw-text-opacity: 1;
-  color: rgb(202 138 4 / var(--tw-text-opacity));
-}
-
-.text-yellow-700 {
-  --tw-text-opacity: 1;
-  color: rgb(161 98 7 / var(--tw-text-opacity));
+  color: rgb(234 179 8 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1695,18 +1655,6 @@ html {
     padding-right: 1.25rem;
   }
 
-  .max-md\:pl-5 {
-    padding-left: 1.25rem;
-  }
-
-  .max-md\:pr-8 {
-    padding-right: 2rem;
-  }
-
-  .max-md\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
   .max-md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1754,6 +1702,18 @@ html {
 
   .md\:pt-0 {
     padding-top: 0;
+  }
+
+  .md\:text-yellow-500 {
+    --tw-text-opacity: 1;
+    color: rgb(234 179 8 / var(--tw-text-opacity));
+  }
+}
+
+@media (width >= 1024px) {
+  .lg\:text-yellow-500 {
+    --tw-text-opacity: 1;
+    color: rgb(234 179 8 / var(--tw-text-opacity));
   }
 }
 /*# sourceMappingURL=index.2cdaf7bc.css.map */

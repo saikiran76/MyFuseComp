@@ -22,9 +22,11 @@ function Spotlight() {
               In the fast-paced and competitive job market, students face the challenge of not only excelling academically but also becoming employable even before graduation.
               </div>
 
-              <button className="justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer w-28 ">
-                Join us
-              </button>
+              <button className="justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer w-28 md:text-yellow-500">
+                    Read more
+                </button>
+
+
 
               
             </div>

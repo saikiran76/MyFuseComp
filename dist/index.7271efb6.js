@@ -41296,8 +41296,8 @@ function Spotlight() {
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: "justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer w-28 ",
-                                children: "Join us"
+                                className: "justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer w-28 md:text-yellow-500",
+                                children: "Read more"
                             }, void 0, false, {
                                 fileName: "src/components/spotlight.js",
                                 lineNumber: 25,
