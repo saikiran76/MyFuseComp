@@ -2970,43 +2970,50 @@ var _company = require("./components/company");
 var _companyDefault = parcelHelpers.interopDefault(_company);
 var _spotlight = require("./components/spotlight");
 var _spotlightDefault = parcelHelpers.interopDefault(_spotlight);
+var _categories = require("./components/categories");
+var _categoriesDefault = parcelHelpers.interopDefault(_categories);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _challengeDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _companyDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _spotlightDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 23,
+                lineNumber: 24,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _categoriesDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 25,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 14
     }, undefined);
 };
@@ -3016,7 +3023,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 31,
+            lineNumber: 33,
             columnNumber: 18
         }, undefined),
         children: [
@@ -3024,7 +3031,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Home",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 34,
+                    lineNumber: 36,
                     columnNumber: 26
                 }, undefined)
             },
@@ -3032,7 +3039,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/login",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 38,
+                    lineNumber: 40,
                     columnNumber: 26
                 }, undefined)
             }
@@ -3044,7 +3051,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 49,
+    lineNumber: 51,
     columnNumber: 14
 }, undefined));
 var _c;
@@ -3055,7 +3062,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","./components/company":"58NAi","./components/spotlight":"fYbxK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","./components/company":"58NAi","./components/spotlight":"fYbxK","./components/categories":"4aE74","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -34728,184 +34735,172 @@ function Head() {
         triggerOnce: true,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "land flex flex-col md:flex-row md:gap-5 flex-wrap bg-gradient-to-br from-purple-900 to-black relative p-20",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "scaler absolute left-4 bottom-4 hidden sm:block",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "",
-                        src: (0, _stuPngDefault.default)
-                    }, void 0, false, {
-                        fileName: "src/components/newHeader.js",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/newHeader.js",
-                    lineNumber: 10,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "mt-4 mb-6 w-full max-w-[1155px] md:max-w-full",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "flex flex-col md:flex-row md:gap-5",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex flex-col w-full md:w-1/2",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "mt-4 mb-6 w-full max-w-[1155px] md:max-w-full",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex flex-col md:flex-row md:gap-5",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex flex-col w-full md:w-1/2",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex flex-col mt-2.5 text-2xl text-white md:mt-10",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-3xl font-bold",
+                                        children: "A world of Endless Opportunities"
+                                    }, void 0, false, {
+                                        fileName: "src/components/newHeader.js",
+                                        lineNumber: 17,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "mt-6 font-semibold text-amber-300",
+                                        children: "Join a vibrant community that paves the way to success."
+                                    }, void 0, false, {
+                                        fileName: "src/components/newHeader.js",
+                                        lineNumber: 20,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer  w-28",
+                                        children: "Join us"
+                                    }, void 0, false, {
+                                        fileName: "src/components/newHeader.js",
+                                        lineNumber: 24,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/newHeader.js",
+                                lineNumber: 16,
+                                columnNumber: 25
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/newHeader.js",
+                            lineNumber: 15,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5 hidden md:block",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "grow",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex flex-col mt-2.5 text-2xl text-white md:mt-10",
+                                    className: "flex flex-col md:flex-row md:gap-5",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-3xl font-bold",
-                                            children: "A world of Endless Opportunities"
+                                            className: "flex flex-col w-full md:w-1/2",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex flex-col grow text-3xl text-white md:mt-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "items-start px-4 pt-6 pb-16 whitespace-nowrap bg-gradient-to-br from-pink-600 to-red-900 rounded-2xl transition duration-300 hover:bg-red-600 cursor-pointer",
+                                                        children: "Learn"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/newHeader.js",
+                                                        lineNumber: 40,
+                                                        columnNumber: 41
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "items-start px-4 pt-6 pb-16 mt-5 whitespace-nowrap rounded-2xl border-4 border-black border-solid shadow-md bg-zinc-300 transition duration-300 hover:bg-zinc-400 cursor-pointer",
+                                                        children: "Challenge"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/newHeader.js",
+                                                        lineNumber: 44,
+                                                        columnNumber: 41
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/newHeader.js",
+                                                lineNumber: 39,
+                                                columnNumber: 37
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/newHeader.js",
-                                            lineNumber: 17,
-                                            columnNumber: 29
+                                            lineNumber: 36,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Slide), {}, void 0, false, {
+                                            fileName: "src/components/newHeader.js",
+                                            lineNumber: 51,
+                                            columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "mt-6 font-semibold text-amber-300",
-                                            children: "Join a vibrant community that paves the way to success."
+                                            className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex flex-col grow text-white md:mt-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "flex flex-col px-3 py-6 bg-indigo-600 rounded-2xl border-black border-solid shadow-md border-[3px] transition duration-300 hover:bg-indigo-700 cursor-pointer",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-xl",
+                                                                children: "AI Resume"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/newHeader.js",
+                                                                lineNumber: 62,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "self-end mt-20 text-xl",
+                                                                children: "New"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/newHeader.js",
+                                                                lineNumber: 63,
+                                                                columnNumber: 45
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/newHeader.js",
+                                                        lineNumber: 61,
+                                                        columnNumber: 41
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "items-start px-5 pt-7 pb-20 mt-7 text-xl whitespace-nowrap bg-green-300 bg-gradient-to-r from-green-300 to-black rounded-2xl transition duration-300 hover:bg-lime-900 cursor-pointer",
+                                                        children: "Jobs"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/newHeader.js",
+                                                        lineNumber: 68,
+                                                        columnNumber: 41
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/newHeader.js",
+                                                lineNumber: 60,
+                                                columnNumber: 37
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/newHeader.js",
-                                            lineNumber: 20,
-                                            columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "justify-center p-4 mt-12 text-xl bg-gradient-to-r from-indigo-500 via-blue-400 to-indigo-500 rounded-md transition duration-300 hover:bg-lime-500 text-center cursor-pointer  w-28",
-                                            children: "Join us"
-                                        }, void 0, false, {
-                                            fileName: "src/components/newHeader.js",
-                                            lineNumber: 24,
-                                            columnNumber: 29
+                                            lineNumber: 59,
+                                            columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/newHeader.js",
-                                    lineNumber: 16,
-                                    columnNumber: 25
+                                    lineNumber: 33,
+                                    columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/newHeader.js",
-                                lineNumber: 15,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "grow",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "flex flex-col md:flex-row md:gap-5",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "flex flex-col w-full md:w-1/2",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex flex-col grow text-3xl text-white md:mt-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "items-start px-4 pt-6 pb-16 whitespace-nowrap bg-gradient-to-br from-pink-600 to-red-900 rounded-2xl transition duration-300 hover:bg-red-600 cursor-pointer",
-                                                            children: "Learn"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/newHeader.js",
-                                                            lineNumber: 35,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "items-start px-4 pt-6 pb-16 mt-5 whitespace-nowrap rounded-2xl border-4 border-black border-solid shadow-md bg-zinc-300 transition duration-300 hover:bg-zinc-400 cursor-pointer",
-                                                            children: "Challenge"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/newHeader.js",
-                                                            lineNumber: 38,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/components/newHeader.js",
-                                                    lineNumber: 34,
-                                                    columnNumber: 37
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "src/components/newHeader.js",
-                                                lineNumber: 33,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "flex flex-col mt-6 md:mt-0 w-full md:w-1/2 md:ml-5",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "flex flex-col grow text-white md:mt-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "flex flex-col px-3 py-6 bg-indigo-600 rounded-2xl border-black border-solid shadow-md border-[3px] transition duration-300 hover:bg-indigo-700 cursor-pointer",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "text-xl",
-                                                                    children: "AI Resume"
-                                                                }, void 0, false, {
-                                                                    fileName: "src/components/newHeader.js",
-                                                                    lineNumber: 47,
-                                                                    columnNumber: 45
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                                    className: "self-end mt-20 text-xl",
-                                                                    children: "New"
-                                                                }, void 0, false, {
-                                                                    fileName: "src/components/newHeader.js",
-                                                                    lineNumber: 48,
-                                                                    columnNumber: 45
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "src/components/newHeader.js",
-                                                            lineNumber: 46,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "items-start px-5 pt-7 pb-20 mt-7 text-xl whitespace-nowrap bg-green-300 bg-gradient-to-r from-green-300 to-black rounded-2xl transition duration-300 hover:bg-lime-900 cursor-pointer",
-                                                            children: "Jobs"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/newHeader.js",
-                                                            lineNumber: 53,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/components/newHeader.js",
-                                                    lineNumber: 45,
-                                                    columnNumber: 37
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "src/components/newHeader.js",
-                                                lineNumber: 44,
-                                                columnNumber: 33
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/newHeader.js",
-                                        lineNumber: 32,
-                                        columnNumber: 29
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/newHeader.js",
-                                    lineNumber: 31,
-                                    columnNumber: 25
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/newHeader.js",
-                                lineNumber: 30,
-                                columnNumber: 21
+                                lineNumber: 31,
+                                columnNumber: 25
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/newHeader.js",
-                        lineNumber: 14,
-                        columnNumber: 17
-                    }, this)
-                }, void 0, false, {
+                        }, void 0, false, {
+                            fileName: "src/components/newHeader.js",
+                            lineNumber: 30,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/newHeader.js",
-                    lineNumber: 13,
-                    columnNumber: 13
+                    lineNumber: 14,
+                    columnNumber: 17
                 }, this)
-            ]
-        }, void 0, true, {
+            }, void 0, false, {
+                fileName: "src/components/newHeader.js",
+                lineNumber: 13,
+                columnNumber: 13
+            }, this)
+        }, void 0, false, {
             fileName: "src/components/newHeader.js",
             lineNumber: 9,
             columnNumber: 9
@@ -40653,7 +40648,7 @@ function Landing() {
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "flex flex-col mt-56 text-7xl font-bold text-white max-md:mt-10 max-md:max-w-full max-md:text-4xl",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "mt-12 text-2xl max-md:mt-10 min-md:mt-10 max-md:max-w-full pt-8 md:pt-0",
+                                        className: "mt-12 mb-6 text-2xl max-md:mt-10 min-md:mt-10 max-md:max-w-full pt-8 md:pt-0",
                                         children: "Discover a world of opportunities with Internships, projects and lot more.."
                                     }, void 0, false, {
                                         fileName: "src/components/landing.js",
@@ -40678,15 +40673,23 @@ function Landing() {
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                             loading: "lazy",
                                             src: (0, _sPngDefault.default),
-                                            className: "object-cover absolute inset-0 w-full h-full top-5"
+                                            className: "object-cover absolute inset-0 w-full h-full"
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
                                             lineNumber: 35,
                                             columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "relative mt-10 max-md:text-4xl",
-                                            children: "300+"
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Slide), {
+                                            direction: "right",
+                                            delay: 20,
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "relative mt-10 max-md:text-4xl",
+                                                children: "300+"
+                                            }, void 0, false, {
+                                                fileName: "src/components/landing.js",
+                                                lineNumber: 40,
+                                                columnNumber: 53
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
                                             lineNumber: 40,
@@ -40700,9 +40703,17 @@ function Landing() {
                                             lineNumber: 41,
                                             columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "relative mt-80 max-md:mt-10 max-md:max-w-full max-md:text-4xl",
-                                            children: "2.5K+"
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Slide), {
+                                            direction: "right",
+                                            delay: 20,
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "relative mt-80 max-md:mt-10 max-md:max-w-full max-md:text-4xl",
+                                                children: "2.5K+"
+                                            }, void 0, false, {
+                                                fileName: "src/components/landing.js",
+                                                lineNumber: 44,
+                                                columnNumber: 53
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/landing.js",
                                             lineNumber: 44,
@@ -41126,7 +41137,8 @@ var _logo1PngDefault = parcelHelpers.interopDefault(_logo1Png);
 var _reactAwesomeReveal = require("react-awesome-reveal");
 const Company = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Zoom), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Fade), {
+            cascade: true,
             triggerOnce: true,
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("swiper-container", {
                 class: "mySwiper",
@@ -41387,6 +41399,293 @@ $RefreshReg$(_c, "Spotlight");
 },{"react/jsx-dev-runtime":"iTorj","../assets/de.png":"7414x","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7414x":[function(require,module,exports) {
 module.exports = require("63940cb3a895c8f7").getBundleURL("aXMci") + "de.681bf9ed.png" + "?" + Date.now();
 
-},{"63940cb3a895c8f7":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
+},{"63940cb3a895c8f7":"lgJ39"}],"4aE74":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$79ac = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$79ac.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _eduPng = require("../assets/edu.png");
+var _eduPngDefault = parcelHelpers.interopDefault(_eduPng);
+var _engPng = require("../assets/eng.png");
+var _engPngDefault = parcelHelpers.interopDefault(_engPng);
+var _tecPng = require("../assets/tec.png");
+var _tecPngDefault = parcelHelpers.interopDefault(_tecPng);
+var _retPng = require("../assets/ret.png");
+var _retPngDefault = parcelHelpers.interopDefault(_retPng);
+var _logPng = require("../assets/log.png");
+var _logPngDefault = parcelHelpers.interopDefault(_logPng);
+var _trPng = require("../assets/tr.png");
+var _trPngDefault = parcelHelpers.interopDefault(_trPng);
+var _hlPng = require("../assets/hl.png");
+var _hlPngDefault = parcelHelpers.interopDefault(_hlPng);
+var _reactAwesomeReveal = require("react-awesome-reveal");
+const Categories = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Slide), {
+                    direction: "down",
+                    triggerOnce: true,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-center text-3xl bg-gradient-to-br from-purple-900 to-black px-12 py-12 text-white shadow-lg",
+                        children: "Top Categories"
+                    }, void 0, false, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 14,
+                        columnNumber: 53
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/categories.js",
+                    lineNumber: 14,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/categories.js",
+                lineNumber: 13,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "categories-conteiner flex flex-wrap flex-row justify-center items-center gap-6 bg-gradient-to-br from-purple-900 to-black py-12 ",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-70 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _eduPngDefault.default),
+                                className: "absolute"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 18,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "mx-auto left-0 right-0 absolute text-white",
+                                children: "Education"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 19,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 17,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _engPngDefault.default),
+                                className: "absolute"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 24,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "mx-auto left-0 right-0 absolute text-white",
+                                children: "Engineering"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 25,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 23,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _tecPngDefault.default),
+                                className: "absolute"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 30,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "mx-auto left-0 right-0 absolute text-white",
+                                children: "Tech & IT "
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 31,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 29,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _retPngDefault.default),
+                                className: "absolute"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 36,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "mx-auto left-0 right-0 absolute text-white",
+                                children: "Retail"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 37,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 35,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _trPngDefault.default),
+                                className: "absolute"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 42,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "mx-auto left-0 right-0 absolute text-white",
+                                children: "Travel"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 43,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 41,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _hlPngDefault.default),
+                                className: "absolute"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 47,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "mx-auto left-0 right-0 absolute text-white",
+                                children: "Health Care"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 48,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 46,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _logPngDefault.default),
+                                className: "absolute"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "mx-auto left-0 right-0 absolute text-white",
+                                children: "Logistics"
+                            }, void 0, false, {
+                                fileName: "src/components/categories.js",
+                                lineNumber: 53,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 51,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            className: "py-16",
+                            children: "Finance"
+                        }, void 0, false, {
+                            fileName: "src/components/categories.js",
+                            lineNumber: 58,
+                            columnNumber: 17
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/categories.js",
+                        lineNumber: 57,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/categories.js",
+                lineNumber: 16,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/categories.js",
+        lineNumber: 12,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Categories;
+exports.default = Categories;
+var _c;
+$RefreshReg$(_c, "Categories");
+
+  $parcel$ReactRefreshHelpers$79ac.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../assets/edu.png":"4xQqW","../assets/eng.png":"9f29W","../assets/tec.png":"kkpsG","../assets/ret.png":"DtwaG","../assets/log.png":"cRBdv","../assets/tr.png":"32bkr","../assets/hl.png":"8PU0O","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4xQqW":[function(require,module,exports) {
+module.exports = require("e04c145c5b98cf51").getBundleURL("aXMci") + "edu.cf189645.png" + "?" + Date.now();
+
+},{"e04c145c5b98cf51":"lgJ39"}],"9f29W":[function(require,module,exports) {
+module.exports = require("41386b666682c882").getBundleURL("aXMci") + "eng.1bcb2e83.png" + "?" + Date.now();
+
+},{"41386b666682c882":"lgJ39"}],"kkpsG":[function(require,module,exports) {
+module.exports = require("e16e8a5a5e8a6560").getBundleURL("aXMci") + "tec.280d26ad.png" + "?" + Date.now();
+
+},{"e16e8a5a5e8a6560":"lgJ39"}],"DtwaG":[function(require,module,exports) {
+module.exports = require("144e6e1696e15597").getBundleURL("aXMci") + "ret.364f7b6c.png" + "?" + Date.now();
+
+},{"144e6e1696e15597":"lgJ39"}],"cRBdv":[function(require,module,exports) {
+module.exports = require("c548ee55bc5a5e78").getBundleURL("aXMci") + "log.c11270c0.png" + "?" + Date.now();
+
+},{"c548ee55bc5a5e78":"lgJ39"}],"32bkr":[function(require,module,exports) {
+module.exports = require("7af1d96ed053d0a3").getBundleURL("aXMci") + "tr.4277230d.png" + "?" + Date.now();
+
+},{"7af1d96ed053d0a3":"lgJ39"}],"8PU0O":[function(require,module,exports) {
+module.exports = require("f010b34272b72fa7").getBundleURL("aXMci") + "hl.f47bfd35.png" + "?" + Date.now();
+
+},{"f010b34272b72fa7":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
 
 //# sourceMappingURL=index.7271efb6.js.map

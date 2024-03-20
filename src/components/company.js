@@ -1,11 +1,11 @@
 import logo from "../logo1.png"
-import { Zoom } from 'react-awesome-reveal';
+import { Fade } from "react-awesome-reveal";
 
 
 const Company = () =>{
     return(
         <div>
-            <Zoom triggerOnce>
+            <Fade cascade triggerOnce>
             <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
         slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
         coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
@@ -37,7 +37,7 @@ const Company = () =>{
             <img  />
             </swiper-slide>
         </swiper-container>
-        </Zoom>
+        </Fade>
     </div>
     )
 }

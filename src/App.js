@@ -8,6 +8,7 @@ import Challenge from "./components/challenge";
 import Landing from "./components/landing";
 import Company from "./components/company";
 import Spotlight from "./components/spotlight";
+import Categories from "./components/categories";
 
 const App = () => {
     return ( <
@@ -21,6 +22,7 @@ const App = () => {
         <Challenge/>
         <Company/>
         <Spotlight/>
+        <Categories/>
 
         </div>
     )

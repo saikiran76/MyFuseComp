@@ -174,7 +174,7 @@ header{
 
 .btn.solid, .btn.transparent:hover{
     background-color: #fff;
-    color: #69bde7;
+    color: purple;
 }
 
 .btn.transparent, .btn.solid:hover{
@@ -387,7 +387,7 @@ header{
         top: 3rem;
         left: 0;
         width: 100%;
-        background-color: #270de4;
+        background-color: #704dcb;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -490,7 +490,7 @@ header{
     }
 
     .dropdown-link:hover > a{
-        background-color: #3a91bd;
+        background-color: purple;
     }
 
     .dropdown-link:first-child:hover ~ .arrow{
@@ -625,5 +625,13 @@ html {
     background-image: linear-gradient(to right, #52f77d, #52f7e3, #52f77d); /* Change gradient colors for hover effect */
   }
   
+
+  .land{
+    height: 90vh;
+  }
+
+  .categories-conteiner{
+    height: 90vh;
+  }
   
   

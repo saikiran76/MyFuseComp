@@ -24,7 +24,7 @@ function Landing() {
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col mt-56 text-7xl font-bold text-white max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-                <div className="mt-12 text-2xl max-md:mt-10 min-md:mt-10 max-md:max-w-full pt-8 md:pt-0">
+                <div className="mt-12 mb-6 text-2xl max-md:mt-10 min-md:mt-10 max-md:max-w-full pt-8 md:pt-0">
                   Discover a world of opportunities with Internships, projects and
                   lot more..
                 </div>
@@ -35,15 +35,15 @@ function Landing() {
                 <img
                   loading="lazy"
                   src={s}
-                  className="object-cover absolute inset-0 w-full h-full top-5"
+                  className="object-cover absolute inset-0 w-full h-full"
                 />
-                <div className="relative mt-10 max-md:text-4xl">300+</div>
+                <Slide direction="right" delay={20}><div className="relative mt-10 max-md:text-4xl">300+</div></Slide>
                 <div className="relative mt-4 mr-12 text-base text-gray-800 max-md:mr-2.5">
                   Jobs
                 </div>
-                <div className="relative mt-80 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+                <Slide direction="right" delay={20}><div className="relative mt-80 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
                   2.5K+
-                </div>
+                </div></Slide>
                 <div className="relative mt-4 text-base text-gray-800 max-md:max-w-full">
                   Active Students
                 </div>
