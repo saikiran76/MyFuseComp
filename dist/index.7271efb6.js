@@ -41423,9 +41423,12 @@ var _trPng = require("../assets/tr.png");
 var _trPngDefault = parcelHelpers.interopDefault(_trPng);
 var _hlPng = require("../assets/hl.png");
 var _hlPngDefault = parcelHelpers.interopDefault(_hlPng);
+var _finPng = require("../assets/fin.png");
+var _finPngDefault = parcelHelpers.interopDefault(_finPng);
 var _reactAwesomeReveal = require("react-awesome-reveal");
 const Categories = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "cat h-full",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Slide), {
@@ -41436,17 +41439,17 @@ const Categories = ()=>{
                         children: "Top Categories"
                     }, void 0, false, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 53
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/categories.js",
-                    lineNumber: 14,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/categories.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41460,7 +41463,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 18,
+                                lineNumber: 19,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41468,13 +41471,13 @@ const Categories = ()=>{
                                 children: "Education"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 19,
+                                lineNumber: 20,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 17,
+                        lineNumber: 18,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41485,7 +41488,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41493,13 +41496,13 @@ const Categories = ()=>{
                                 children: "Engineering"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 23,
+                        lineNumber: 24,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41510,7 +41513,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 30,
+                                lineNumber: 31,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41518,13 +41521,13 @@ const Categories = ()=>{
                                 children: "Tech & IT "
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 31,
+                                lineNumber: 32,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41535,7 +41538,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 36,
+                                lineNumber: 37,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41543,115 +41546,25 @@ const Categories = ()=>{
                                 children: "Retail"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 35,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: (0, _trPngDefault.default),
-                                className: "absolute"
-                            }, void 0, false, {
-                                fileName: "src/components/categories.js",
-                                lineNumber: 42,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                className: "mx-auto left-0 right-0 absolute text-white",
-                                children: "Travel"
-                            }, void 0, false, {
-                                fileName: "src/components/categories.js",
-                                lineNumber: 43,
-                                columnNumber: 17
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/categories.js",
-                        lineNumber: 41,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: (0, _hlPngDefault.default),
-                                className: "absolute"
-                            }, void 0, false, {
-                                fileName: "src/components/categories.js",
-                                lineNumber: 47,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                className: "mx-auto left-0 right-0 absolute text-white",
-                                children: "Health Care"
-                            }, void 0, false, {
-                                fileName: "src/components/categories.js",
-                                lineNumber: 48,
-                                columnNumber: 17
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/categories.js",
-                        lineNumber: 46,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: (0, _logPngDefault.default),
-                                className: "absolute"
-                            }, void 0, false, {
-                                fileName: "src/components/categories.js",
-                                lineNumber: 52,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                className: "mx-auto left-0 right-0 absolute text-white",
-                                children: "Logistics"
-                            }, void 0, false, {
-                                fileName: "src/components/categories.js",
-                                lineNumber: 53,
-                                columnNumber: 17
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/categories.js",
-                        lineNumber: 51,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-50 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "py-16",
-                            children: "Finance"
-                        }, void 0, false, {
-                            fileName: "src/components/categories.js",
-                            lineNumber: 58,
-                            columnNumber: 17
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/categories.js",
-                        lineNumber: 57,
+                        lineNumber: 36,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/categories.js",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/categories.js",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
@@ -41665,7 +41578,7 @@ $RefreshReg$(_c, "Categories");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../assets/edu.png":"4xQqW","../assets/eng.png":"9f29W","../assets/tec.png":"kkpsG","../assets/ret.png":"DtwaG","../assets/log.png":"cRBdv","../assets/tr.png":"32bkr","../assets/hl.png":"8PU0O","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4xQqW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../assets/edu.png":"4xQqW","../assets/eng.png":"9f29W","../assets/tec.png":"kkpsG","../assets/ret.png":"DtwaG","../assets/log.png":"cRBdv","../assets/tr.png":"32bkr","../assets/hl.png":"8PU0O","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/fin.png":"2DWlk"}],"4xQqW":[function(require,module,exports) {
 module.exports = require("e04c145c5b98cf51").getBundleURL("aXMci") + "edu.cf189645.png" + "?" + Date.now();
 
 },{"e04c145c5b98cf51":"lgJ39"}],"9f29W":[function(require,module,exports) {
@@ -41686,6 +41599,9 @@ module.exports = require("7af1d96ed053d0a3").getBundleURL("aXMci") + "tr.4277230
 },{"7af1d96ed053d0a3":"lgJ39"}],"8PU0O":[function(require,module,exports) {
 module.exports = require("f010b34272b72fa7").getBundleURL("aXMci") + "hl.f47bfd35.png" + "?" + Date.now();
 
-},{"f010b34272b72fa7":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
+},{"f010b34272b72fa7":"lgJ39"}],"2DWlk":[function(require,module,exports) {
+module.exports = require("84901b6834fc442b").getBundleURL("aXMci") + "fin.0019828f.png" + "?" + Date.now();
+
+},{"84901b6834fc442b":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
 
 //# sourceMappingURL=index.7271efb6.js.map
