@@ -1,4 +1,4 @@
-Redesign Documentation for MyFuse Website
+###Redesign Documentation for MyFuse Website
 
 ## Introduction
 In this documentation, I will outline the step-by-step process of redesigning the MyFuse website for a competition. The redesign process focused on incorporating User Experience (UX) principles such as F-shaped design pattern, complementary colors, and utilized React for the redesign.
