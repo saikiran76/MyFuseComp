@@ -1,5 +1,10 @@
 ## Redesign Documentation for MyFuse Website
 
+
+<img width="948" alt="image" src="https://github.com/saikiran76/MyFuseComp/assets/80874246/aa0ec010-e78e-4719-a73d-c76e61fb94a6">
+<img width="957" alt="image" src="https://github.com/saikiran76/MyFuseComp/assets/80874246/d8da33c9-9ed8-46fd-8ac3-c43d3413ab11">
+
+
 ## Introduction
 In this documentation, I will outline the step-by-step process of redesigning the MyFuse website for a competition. The redesign process focused on incorporating User Experience (UX) principles such as F-shaped design pattern, complementary colors, and utilized React for the redesign.
 
