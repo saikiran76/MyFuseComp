@@ -57,7 +57,7 @@
 
   swiper-container {
     width: 100%;
-    height: 50%;
+    height: 40%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color:#efefef;
@@ -67,7 +67,7 @@
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 200px;
+    height: 160px;
   }
 
   swiper-slide img {
@@ -613,3 +613,17 @@ html {
     background:url("../src/assets/de.png");
 }
 
+.btn {
+    background-image: linear-gradient(to right, #6574cd, #6095ea, #6574cd);
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    color: white; /* Add this line to ensure text color is white */
+  }
+  
+  .btn:hover {
+    background-image: linear-gradient(to right, #52f77d, #52f7e3, #52f77d); /* Change gradient colors for hover effect */
+  }
+  
+  
+  

@@ -18,7 +18,7 @@ function Challenge() {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e4ce6200578acbf5f9baa48460b5be32ba47779ca3212a0603b478f2d02d44be?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&"
               className="object-cover absolute inset-0 size-full"
             />
-            <div className="relative mt-5 text-4xl font-extrabold text-black max-md:max-w-full">
+            <div className="relative mt-5 text-4xl font-extrabold text-blue-200 max-md:max-w-full">
               Re-imagine MyFuse
             </div>
             <div className="relative mt-1.5 text-2xl mix-blend-hard-light max-md:max-w-full">

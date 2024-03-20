@@ -1,5 +1,6 @@
 import * as React from "react";
 import s from "../assets/s.png"
+import { Slide } from "react-awesome-reveal";
 
 function Landing() {
   const handleButtonHover = (event) => {
@@ -59,8 +60,8 @@ function Landing() {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/41ab3652a3e9169e7692c39ba18c30222807a68cdf77307b83456f0c399d7e54?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&"
                 className="object-cover absolute inset-0 size-full"
                 />
+                <Slide direction="up" triggerOnce delay={50}>
                 <div className="flex overflow-hidden relative flex-col px-6 py-7 w-full aspect-[1.3] stroke-[1px] stroke-white stroke-opacity-90 max-md:px-5">
-              
                   <div className="relative mt-7 text-xl font-bold">Learn</div>
                   <div className="relative mt-6">
                     Lorem ipsum dolor sit amet,
@@ -72,30 +73,47 @@ function Landing() {
                     elit. Cursus imperdiet sed
                   </div>
                   <div className="relative mt-2.5">id elementum.</div></div>
+                  </Slide>
               </div>
-            </div>
-            <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-              <div className="flex overflow-hidden relative flex-col grow justify-center text-base text-white aspect-[1.3] fill-[linear-gradient(180deg,rgba(255,255,255,0.25)_0%,rgba(255,255,255,0.00)_100%)] max-md:mt-6">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/41ab3652a3e9169e7692c39ba18c30222807a68cdf77307b83456f0c399d7e54?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&"
-                className="object-cover absolute inset-0 size-full"
-                />
-                <div className="flex overflow-hidden relative flex-col px-6 py-7 w-full aspect-[1.3] stroke-[1px] stroke-white stroke-opacity-90 max-md:px-5">
               
-                  <div className="relative mt-7 text-xl font-bold">Challenge</div>
-                  <div className="relative mt-6">
-                    Lorem ipsum dolor sit amet,
-                  </div>
-                  <div className="relative mt-2.5">
-                    consectetur adipiscing
-                  </div>
-                  <div className="relative mt-2.5 max-md:mr-2">
-                    elit. Cursus imperdiet sed
-                  </div>
-                  <div className="relative mt-2.5">id elementum.</div></div>
-              </div>
             </div>
+            
+
+          
+              <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+              
+                <div className="flex overflow-hidden relative flex-col grow justify-center text-base text-white aspect-[1.3] fill-[linear-gradient(180deg,rgba(255,255,255,0.25)_0%,rgba(255,255,255,0.00)_100%)] max-md:mt-6">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/41ab3652a3e9169e7692c39ba18c30222807a68cdf77307b83456f0c399d7e54?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&"
+                  className="object-cover absolute inset-0 size-full"
+                  />
+                  <Slide direction="up" triggerOnce delay={100}>
+                  <div className="flex overflow-hidden relative flex-col px-6 py-7 w-full aspect-[1.3] stroke-[1px] stroke-white stroke-opacity-90 max-md:px-5">
+                
+                    <div className="relative mt-7 text-xl font-bold">Challenge</div>
+                    <div className="relative mt-6">
+                      Lorem ipsum dolor sit amet,
+                    </div>
+                    <div className="relative mt-2.5">
+                      consectetur adipiscing
+                    </div>
+                    <div className="relative mt-2.5 max-md:mr-2">
+                      elit. Cursus imperdiet sed
+                    </div>
+                    <div className="relative mt-2.5">id elementum.</div></div>
+                    </Slide>
+                    
+                </div>
+                
+                
+              
+              </div>
+              
+  
+              
+            
+
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
               <div className="flex overflow-hidden relative flex-col grow justify-center text-base text-white aspect-[1.3] fill-[linear-gradient(180deg,rgba(255,255,255,0.25)_0%,rgba(255,255,255,0.00)_100%)] max-md:mt-6">
                 <img
@@ -103,6 +121,7 @@ function Landing() {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/41ab3652a3e9169e7692c39ba18c30222807a68cdf77307b83456f0c399d7e54?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&"
                 className="object-cover absolute inset-0 size-full"
                 />
+                <Slide direction="up" triggerOnce delay={150}>
                 <div className="flex overflow-hidden relative flex-col px-6 py-7 w-full aspect-[1.3] stroke-[1px] stroke-white stroke-opacity-90 max-md:px-5">
               
                   <div className="relative mt-7 text-xl font-bold">Jobs</div>
@@ -116,6 +135,7 @@ function Landing() {
                     elit. Cursus imperdiet sed
                   </div>
                   <div className="relative mt-2.5">id elementum.</div></div>
+                  </Slide>
               </div>
             </div>
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
@@ -125,6 +145,7 @@ function Landing() {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/378053001538492a3230394ee3a50047f0dccab38975788784845d7bad4647a5?apiKey=3bfc69a1ccff4bb880a1c9a355262cca&"
                   className="object-cover absolute inset-0 size-full"
                 />
+                <Slide direction="up" triggerOnce delay={200}>
                 <div className="flex overflow-hidden relative flex-col px-6 py-7 w-full aspect-[1.3] stroke-[1px] stroke-white stroke-opacity-90 max-md:px-5">
                   
                   
@@ -142,6 +163,7 @@ function Landing() {
                   </div>
                   <div className="relative mt-2.5">id elementum.</div>
                 </div>
+                </Slide>
               </div>
             </div>
           </div>
