@@ -30,7 +30,6 @@ In this documentation, I will outline the step-by-step process of redesigning th
 
 ## Step 6: Launch and Monitoring
 - Deployed the redesigned MyFuse website to make it live for the competition.
-- Implemented analytics tools to monitor user behavior, track performance metrics, and gather insights for future optimizations.
 
 ## Conclusion
 The redesign of the MyFuse website was successfully completed by following a systematic approach that prioritized UX principles such as F-shaped design, complementary colors, and leveraging React for development. The final product aims to provide users with an intuitive, visually appealing, and engaging experience while meeting the requirements of the competition.
