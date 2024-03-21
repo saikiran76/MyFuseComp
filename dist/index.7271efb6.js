@@ -2972,48 +2972,55 @@ var _spotlight = require("./components/spotlight");
 var _spotlightDefault = parcelHelpers.interopDefault(_spotlight);
 var _categories = require("./components/categories");
 var _categoriesDefault = parcelHelpers.interopDefault(_categories);
+var _resume = require("./components/Resume");
+var _resumeDefault = parcelHelpers.interopDefault(_resume);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _challengeDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _companyDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _spotlightDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _categoriesDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 25,
+                lineNumber: 26,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 27,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 14
     }, undefined);
 };
@@ -3023,7 +3030,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 33,
+            lineNumber: 35,
             columnNumber: 18
         }, undefined),
         children: [
@@ -3031,7 +3038,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/Home",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 36,
+                    lineNumber: 38,
                     columnNumber: 26
                 }, undefined)
             },
@@ -3039,7 +3046,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/login",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newHeaderDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 40,
+                    lineNumber: 42,
                     columnNumber: 26
                 }, undefined)
             }
@@ -3051,7 +3058,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 51,
+    lineNumber: 53,
     columnNumber: 14
 }, undefined));
 var _c;
@@ -3062,7 +3069,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","./components/company":"58NAi","./components/spotlight":"fYbxK","./components/categories":"4aE74","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","react-router-dom":"9xmpe","./components/newHeader":"7WWNc","./components/challenge":"cgZMh","./components/landing":"fQFy1","./components/company":"58NAi","./components/spotlight":"fYbxK","./components/categories":"4aE74","./components/Resume":"4aT7V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -41430,22 +41437,16 @@ const Categories = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "cat h-full",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Slide), {
-                    direction: "down",
-                    triggerOnce: true,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "text-center text-3xl bg-gradient-to-br from-purple-900 to-black px-12 py-12 text-white shadow-lg",
-                        children: "Top Categories"
-                    }, void 0, false, {
-                        fileName: "src/components/categories.js",
-                        lineNumber: 15,
-                        columnNumber: 53
-                    }, undefined)
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactAwesomeReveal.Slide), {
+                direction: "down",
+                triggerOnce: true,
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "text-center text-3xl bg-gradient-to-br from-purple-900 to-black px-9 py-9 text-white shadow-lg",
+                    children: "Top Categories"
                 }, void 0, false, {
                     fileName: "src/components/categories.js",
-                    lineNumber: 15,
-                    columnNumber: 17
+                    lineNumber: 14,
+                    columnNumber: 49
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/categories.js",
@@ -41463,7 +41464,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 19,
+                                lineNumber: 18,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41471,13 +41472,13 @@ const Categories = ()=>{
                                 children: "Education"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 20,
+                                lineNumber: 19,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 18,
+                        lineNumber: 17,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41488,7 +41489,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 25,
+                                lineNumber: 24,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41496,13 +41497,13 @@ const Categories = ()=>{
                                 children: "Engineering"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 26,
+                                lineNumber: 25,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 24,
+                        lineNumber: 23,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41513,7 +41514,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 31,
+                                lineNumber: 30,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41521,13 +41522,13 @@ const Categories = ()=>{
                                 children: "Tech & IT "
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 32,
+                                lineNumber: 31,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 30,
+                        lineNumber: 29,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41538,7 +41539,7 @@ const Categories = ()=>{
                                 className: "absolute"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 37,
+                                lineNumber: 36,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -41546,19 +41547,19 @@ const Categories = ()=>{
                                 children: "Retail"
                             }, void 0, false, {
                                 fileName: "src/components/categories.js",
-                                lineNumber: 38,
+                                lineNumber: 37,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/categories.js",
-                        lineNumber: 36,
+                        lineNumber: 35,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/categories.js",
-                lineNumber: 17,
+                lineNumber: 16,
                 columnNumber: 9
             }, undefined)
         ]
@@ -41578,7 +41579,7 @@ $RefreshReg$(_c, "Categories");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../assets/edu.png":"4xQqW","../assets/eng.png":"9f29W","../assets/tec.png":"kkpsG","../assets/ret.png":"DtwaG","../assets/log.png":"cRBdv","../assets/tr.png":"32bkr","../assets/hl.png":"8PU0O","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/fin.png":"2DWlk"}],"4xQqW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../assets/edu.png":"4xQqW","../assets/eng.png":"9f29W","../assets/tec.png":"kkpsG","../assets/ret.png":"DtwaG","../assets/log.png":"cRBdv","../assets/tr.png":"32bkr","../assets/hl.png":"8PU0O","../assets/fin.png":"2DWlk","react-awesome-reveal":"lNm3w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4xQqW":[function(require,module,exports) {
 module.exports = require("e04c145c5b98cf51").getBundleURL("aXMci") + "edu.cf189645.png" + "?" + Date.now();
 
 },{"e04c145c5b98cf51":"lgJ39"}],"9f29W":[function(require,module,exports) {
@@ -41602,6 +41603,103 @@ module.exports = require("f010b34272b72fa7").getBundleURL("aXMci") + "hl.f47bfd3
 },{"f010b34272b72fa7":"lgJ39"}],"2DWlk":[function(require,module,exports) {
 module.exports = require("84901b6834fc442b").getBundleURL("aXMci") + "fin.0019828f.png" + "?" + Date.now();
 
-},{"84901b6834fc442b":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
+},{"84901b6834fc442b":"lgJ39"}],"4aT7V":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2b67 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2b67.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _resPng = require("../assets/Res.png");
+var _resPngDefault = parcelHelpers.interopDefault(_resPng);
+const Resume = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "popular-articles",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "popular-header header-card",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "header-card-title",
+                        children: [
+                            "Popular ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 8,
+                                columnNumber: 19
+                            }, undefined),
+                            " this ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 8,
+                                columnNumber: 31
+                            }, undefined),
+                            " month"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Resume.js",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "header-card-sponsor",
+                        children: [
+                            "Powered by",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 12,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://try.digitalocean.com/css-tricks/?utm_source=css-tricks.com&utm_medium=cta&utm_campaign=website_link",
+                                children: "DigitalOcean"
+                            }, void 0, false, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 13,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Resume.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Resume.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "mini-card-grid"
+            }, void 0, false, {
+                fileName: "src/components/Resume.js",
+                lineNumber: 17,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Resume.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Resume;
+exports.default = Resume;
+var _c;
+$RefreshReg$(_c, "Resume");
+
+  $parcel$ReactRefreshHelpers$2b67.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../assets/Res.png":"hdcMM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hdcMM":[function(require,module,exports) {
+module.exports = require("33549d5b61b29e9c").getBundleURL("aXMci") + "Res.58df41bc.png" + "?" + Date.now();
+
+},{"33549d5b61b29e9c":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequireb2f2")
 
 //# sourceMappingURL=index.7271efb6.js.map

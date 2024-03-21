@@ -11,9 +11,8 @@ import { Slide } from "react-awesome-reveal"
 const Categories = () =>{
     return(
         <div className="cat h-full">
-            <div>
-                <Slide direction="down" triggerOnce><h1 className="text-center text-3xl bg-gradient-to-br from-purple-900 to-black px-12 py-12 text-white shadow-lg">Top Categories</h1></Slide>
-            </div>
+            <Slide direction="down" triggerOnce><h1 className="text-center text-3xl bg-gradient-to-br from-purple-900 to-black px-9 py-9 text-white shadow-lg">Top Categories</h1></Slide>
+            
         <div className="categories-conteiner flex flex-wrap flex-row justify-center items-center gap-6 bg-gradient-to-br from-purple-900 to-black py-12 ">
             <div className="w-64 h-64 bg-purple-400 text-2xl rounded-md text-center py-5 bg-opacity-70 overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 relative">
                 <img src={edu} className="absolute"></img>

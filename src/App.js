@@ -10,6 +10,7 @@ import Company from "./components/company";
 import Spotlight from "./components/spotlight";
 import Categories from "./components/categories";
 
+
 const App = () => {
     return ( <
         div >
@@ -23,6 +24,7 @@ const App = () => {
         <Company/>
         <Spotlight/>
         <Categories/>
+   
 
         </div>
     )
@@ -39,6 +41,11 @@ const appRouter = createBrowserRouter([{
                 path: "/login",
                 element: < Head / >
             },
+            {
+                path: "/challenge",
+                element: <Challenge/>
+
+            }
 
 
         ]

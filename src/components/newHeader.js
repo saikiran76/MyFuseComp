@@ -2,7 +2,7 @@ import * as React from "react";
 import { Fade } from "react-awesome-reveal";
 import stu from "../assets/stu.png";
 import { Slide } from "react-awesome-reveal";
-
+import { Link } from "react-router-dom";
 function Head() {
     return (
         <Fade triggerOnce>
@@ -41,9 +41,11 @@ function Head() {
                                             Learn
                                         </div>
                                         
-                                        <div className="items-start px-4 pt-6 pb-16 mt-5 whitespace-nowrap rounded-2xl border-4 border-black border-solid shadow-md bg-zinc-300 transition duration-300 hover:bg-zinc-400 cursor-pointer">
-                                            Challenge
-                                        </div>
+                                            <div className="items-start px-4 pt-6 pb-16 mt-5 whitespace-nowrap rounded-2xl border-4 border-black border-solid shadow-md bg-zinc-300 transition duration-300 hover:bg-zinc-400 cursor-pointer">
+
+                                                <Link to="/challenge">Challenge</Link>
+                                            </div>
+                                        
                                         
                                     </div>
            
